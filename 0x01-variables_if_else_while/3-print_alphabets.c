@@ -1,21 +1,18 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-
 /**
- *main - prints alphabet in low and upper case
+*main - prints alphabet in low and upper case
 *it executes and prints
 *Return: Always 0 (Success)
 */
 int main(void)
 {
-char i, j;
-for (i = 'a'; i <= 'z';
-i++);
+char i;
+for (i = 'a'; i <= 'z'; i++)
 putchar(i);
-for (j = 'A' ; j <= 'Z';
-j++);
-putchar(j);
+for (i = 'A' ; i <= 'Z'; i++)
+putchar(i);
 putchar('\n');
 return (0);
 }
