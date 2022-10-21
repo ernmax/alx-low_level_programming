@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-*Main - Alphabet
-*executes and prints
-*Returns: 0 (Always)
+*main - Description :Prints all the letters except q and e
+*Description: "executes and prints"
+*Return: Always 0 (Success)
 */
 int main(void)
 {
@@ -16,7 +16,7 @@ if (i == 'q' || i == 'e')
 continue;
 }
 putchar(i);
-putchar('\n');
 }
+putchar('\n');
 return (0);
 }
