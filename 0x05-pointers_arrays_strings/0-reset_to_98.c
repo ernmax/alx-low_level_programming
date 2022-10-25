@@ -1,11 +1,15 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
-* print_alphabet -A function that prints in lowercase
-*
-* Return: Always 0 (Succes)
+* File: main.h
+* Auth: Ernest M
+* Desc: Header file with prototypes
+*       used in the 0x04-pointers_arrays_strings directory.
 */
-void reset_to_98(int *n);
+
+
+
+void reset_to_98(int *n)
 {
 *n = 98;
 }
