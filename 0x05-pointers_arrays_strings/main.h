@@ -1,14 +1,9 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef _MAIN_H
+#define _MAIN_H
 
-/**
- * File: main.h
- * Auth: Ernest M
- * Desc: Header file with prototypes
- *       used in the 0x04-pointers_arrays_strings directory.
- */
+#include <stdio.h>
 
-#include <stdlib.h>
+int add(int, int);
 
 int _putchar(char c);
 void reset_to_98(int *n);
