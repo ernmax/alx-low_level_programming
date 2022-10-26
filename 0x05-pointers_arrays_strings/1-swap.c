@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-* Write a function that swaps the values of two integers.
+* Swap_int > Write a function that swaps the values of two integers.
 * @a: parameter 1
 * @b: parameter 2
 * Return: n
