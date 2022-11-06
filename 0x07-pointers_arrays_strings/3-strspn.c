@@ -24,7 +24,8 @@ if (check == 0)
 return (value);
 }
 return (value);
-}#include "holberton.h"
+}
+#include "main.h"
 /**
 * _strspn - Entry point
 * @s: input
