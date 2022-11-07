@@ -1,0 +1,7 @@
+#include "main.h"
+#include <stdio.h>
+int main(int argc, char **arg)
+{
+printf("%s", argv[0]);
+return 0;
+}
