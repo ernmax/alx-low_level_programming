@@ -1,9 +1,20 @@
 #include "main.h"
 #include <stdio.h>
 #include <string.h>
-int main(__attribute__((unused)) int argc,
-__attribute__((unused)) char **argv)
+/**
+* Description - Uses of argc and argv
+* @main: a program that prints its name
+* @argc: Print with new name upon  renaming
+* @argv: Path to be present
+* Return: Always 0 (Success)
+*/
+int main(int argc, char *argv[])
 {
-printf("%s", argv[0]);
-return 0;
+int i;
+for (i =0; i < argc;i++)
+{
+printf("%s ", argv[i]);
+}
+printf("\n");
+return (0);
 }
