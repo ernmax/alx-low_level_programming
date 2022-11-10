@@ -7,10 +7,10 @@
 * @argv: print name
 * Return: program name
 */
-int main(int argc, char *argv[])
+int main(int argc, __attribute__((unused)) char *argv[])
 {
 int counter;
 for (counter = 0; counter < argc ; counter++)
-printf("%d: %s\n", counter, argv[counter]);
+printf("%d\n", counter - 1);
 return (0);
 }
