@@ -1,0 +1,26 @@
+
+#include "main.h"
+#include <stdio.h>
+#include <string.h>
+/**
+* main - a program that prints all arguments it receives.
+* @argc: count
+* @argv: print name
+* Return: program name
+*/
+int main(__attribute__((unused)) int argc, char *argv[])
+{
+
+
+
+
+
+
+
+
+
+
+
+  
+return (0);
+}
